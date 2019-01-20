@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 15px;
   position: fixed;
   width: 420px;
@@ -25,6 +25,12 @@ nav {
   padding: 22px;
   background-color: #eee;
   border-bottom: 1px solid black;
+}
+
+.location:after{
+  content: '';
+  clear: both;
+  display: table;
 }
 
 .location:hover{
